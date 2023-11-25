@@ -1,0 +1,136 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+  }
+
+/* Fuente para todo el documento */
+  .body {
+    font-family: 'Open Sans', 'Cambria';
+  }
+ 
+  /* Encabezado */
+  .encabezado {
+    background-color: #e4143c;
+    color: white;
+    padding: 1em;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 0;
+    border: none; 
+  }
+
+  .logo{
+    display: flex;
+    align-items: center;
+    text-align: left;
+  }
+
+  .logo i{
+    margin-left: 10px;
+    font-size: 3.2em;
+    color: #fff;
+  }
+
+  .titulosEncabezado{
+    text-align: left;
+    display: flex; 
+    flex-direction: column;  
+  }
+
+  .h1 {
+    font-size: 2em;  
+  }
+  
+  .subtitulosEncabezado {
+    padding-top: 5px;
+    position: relative;
+    top: -10px;
+    order: 2;
+  }
+
+  .subtitulosEncabezado p {
+    font-size: 1.5em;
+    color: #f8f7f7;
+    margin-top: 5px;
+    text-align: center;
+  }
+
+  .redes-sociales {
+    display: flex;
+    align-items: center;
+    text-align: right;  
+  }
+  
+  .redes-sociales i {
+    margin-left: 10px;
+    font-size: 2em;
+    color: #fff;
+  }
+
+  .redes-sociales a:hover i {
+    color: #c0c0c0;
+  }
+  
+  /* Contenedor principal */
+  .contenedorTarjetas {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2em;
+    border: none;
+  }
+  
+  /* Tarjetas */ 
+  .tarjeta {
+    background-color: white;
+    padding: 1.5em;
+    border-radius: 5px;
+    cursor: pointer;
+    flex: 1 1 500px;
+    margin: 10px;
+    transition: box-shadow 0.3s;
+  }
+  
+  .tarjeta h3{
+    color: #ec3454;
+  }
+
+  .tarjeta:hover {
+    background-color: #ec3454;
+    box-shadow: 0 0 10px #aaa;
+    transform: translateY(-5px);
+    border: 1px solid #aaa;
+ }
+ .tarjeta:hover h3{
+    color: #ffffff;
+  }
+  .tarjeta:hover p{
+    color: #ffffff;
+  }
+
+  /* Efecto de sombra */
+  .sombra {
+    box-shadow: 0 3px 10px rgba(0,0,0,0.2);
+  }
+  
+  /* Pie de página */
+  .pie-pagina {
+    background-color: #e4143c;
+    color: white;
+    padding: 2em;
+    text-align: center;
+    height: 40px;
+    display: flex;
+    align-items: center;
+  }
+  .pie-pagina i {
+    font-size: 2em;
+    color: #fff;
+    align-items: center;
+    padding: 10px;
+  }

@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Web de Tareas - PWA</title>
+
+  <!-- Fuente de Google -->
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+
+  <!-- Iconos de FontAwesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+  <!-- Hoja de Estilos Personalizada -->
+  <link rel="stylesheet" href="estilos.css">
+
+</head>
+
+<body>
+  <!-- Encabezado con fondo de color -->
+  <header class="encabezado">
+    <div class="logo">
+      <a href="https://eva.ube.edu.ec/user/view.php?id=6976&course=2516" target="_blank"><i class="fas fa-user-circle"></i></a>
+    </div>
+    <div class="titulosEncabezado">
+      <h1>Programación Web Avanzada</h1>
+      <div class="subtitulosEncabezado">
+        <p>Joel Ordóñez - Tareas</p>
+      </div>
+    </div>
+    <div class="redes-sociales">
+      <a href="https://www.facebook.com/aisaacjoel" target="_blank"><i class="fab fa-facebook"></i></a>
+      <a href="https://www.instagram.com/aisaac_joel/" target="_blank"><i class="fab fa-instagram"></i></a>
+      <a href="https://github.com/ai-saac" target="_blank"><i class="fab fa-github"></i></a>
+    </div>
+  </header>
+  <div class="titulosBody">
+    <h2>SITIOS WEB CLASES PRACTICAS</h2>
+  </div>
+  <div class="contenedorTarjetas">
+    <!-- Tarjetas con sombreado -->
+    <div class="tarjeta sombra" id="CP1">
+        <h3>Clase Práctica 1</h3>
+        <p>Hoja de vida y Sitio de una empresa</p>
+        <a href="pwapractica1/index.html">
+          <span class="fas fa-arrow-right"></span> Ver detalles
+        </a>
+    </div>
+
+    <div class="tarjeta sombra" id="CP2">
+      <h3>Clase Práctica 2</h3>
+      <p>Carrusel de imágenes.</p>
+      <a href="pwapractica2/index.html" target="_blank">
+        <span class="fas fa-arrow-right"></span> Ver detalles
+      </a>
+    </div>
+
+    <div class="tarjeta sombra" id="CP3">
+      <h3>Clase Práctica 3</h3>
+      <p>Carrusel de imágenes.</p>
+      <a href="pwapractica3/index.html" target="_blank">
+        <span class="fas fa-arrow-right"></span> Ver detalles
+      </a>
+    </div>
+
+    <div class="tarjeta sombra" id="CP4">
+      <h3>Clase Práctica 4</h3>
+      <p>Carrusel de imágenes.</p>
+      <a href="pwapractica4/index.html" target="_blank">
+        <span class="fas fa-arrow-right"></span> Ver detalles
+      </a>
+    </div>
+  </div>
+  <div class="titulosBody">
+    <h2>SITIOS WEB TAREAS PRACTICAS</h2>
+  </div>
+  <div class="contenedorTarjetas">
+    <!-- Tarjetas con sombreado -->
+    <div class="tarjeta sombra" id="TP1">
+      <h3>Tarea Práctica 1</h3>
+      <p>Carrusel de imágenes.</p>
+      <a href="pwatarea1/index.html" target="_blank">
+        <span class="fas fa-arrow-right"></span> Ver detalles
+      </a>
+    </div>
+
+    <div class="tarjeta sombra" id="TP2">
+      <h3>Tarea Práctica 2</h3>
+      <p>Carrusel de imágenes.</p>
+      <a href="pwatarea2/index.html" target="_blank">
+        <span class="fas fa-arrow-right"></span> Ver detalles
+      </a>
+    </div>
+
+    <div class="tarjeta sombra" id="TP3">
+      <h3>Tarea Práctica 3</h3>
+      <p>Carrusel de imágenes.</p>
+      <a href="pwatarea3/index.html" target="_blank">
+        <span class="fas fa-arrow-right"></span> Ver detalles
+      </a>
+    </div>
+
+    <div class="tarjeta sombra" id="TP4">
+      <h3>Tarea Práctica 4</h3>
+      <p>Carrusel de imágenes.</p>
+      <a href="pwatarea4/index.html" target="_blank">
+        <span class="fas fa-arrow-right"></span> Ver detalles
+      </a>
+    </div>
+  </div>
+  <script>
+    const cp1 = document.getElementById("CP1");
+    const tp1 = document.getElementById("TP1");
+    const cp2 = document.getElementById("CP2");
+    const tp2 = document.getElementById("TP2");
+    const cp3 = document.getElementById("CP3");
+    const tp3 = document.getElementById("TP3");
+    const cp4 = document.getElementById("TP4");
+    const tp4 = document.getElementById("TP4");
+    cp1.addEventListener("click", function(){
+      window.open("https://www.facebook.com","_blank"); 
+    });
+    tp1.addEventListener("click", function(){
+      window.open("https://www.twitter.com","_blank"); 
+    }); 
+    cp2.addEventListener("click", function(){
+      window.open("https://www.instagram.com","_blank"); 
+    });
+    tp2.addEventListener("click", function(){
+      window.open("https://www.pinterest.com","_blank"); 
+    });
+    cp3.addEventListener("click", function(){
+      window.open("https://www.youtube.com","_blank"); 
+    });
+    tp3.addEventListener("click", function(){
+      window.open("https://www.ube.edu.ec","_blank"); 
+    });
+    cp4.addEventListener("click", function(){
+      window.open("https://www.canva.com","_blank"); 
+    });
+    tp4.addEventListener("click", function(){
+      window.open("https://www.github.com","_blank"); 
+    });
+  </script>
+  <!-- Pie de página con fondo de color -->
+  <footer class="pie-pagina">
+    <i class="fas fa-phone-alt"></i>
+    <p>0994617267</p>
+    <i class="fas fa-envelope-open"></i>
+    <p>asiaac.joel01@gmail.com</p>
+  </footer>
+
+</body>
+
+</html>
