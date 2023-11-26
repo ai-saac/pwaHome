@@ -50,6 +50,7 @@
     position: relative;
     top: -10px;
     order: 2;
+    padding-bottom: 5px;
   }
 
   .subtitulosEncabezado p {
@@ -74,26 +75,33 @@
   .redes-sociales a:hover i {
     color: #c0c0c0;
   }
+  .titulosBody{
+    padding-left: 60px;
+  } 
   
+  .titulosBody h2{
+    padding: 15px;
+  }
   /* Contenedor principal */
   .contenedorTarjetas {
     display: flex;
     flex-wrap: wrap;
     max-width: 1200px;
     margin: 0 auto;
-    padding: 2em;
+    padding: 1em;
     border: none;
   }
   
   /* Tarjetas */ 
   .tarjeta {
     background-color: white;
-    padding: 1.5em;
+    padding: 1.1em;
     border-radius: 5px;
     cursor: pointer;
-    flex: 1 1 500px;
+    flex: 1 1 200px;
     margin: 10px;
     transition: box-shadow 0.3s;
+    height: 120px;
   }
   
   .tarjeta h3{
